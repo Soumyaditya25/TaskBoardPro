@@ -138,8 +138,6 @@ Visit `http://localhost:3000` in your browser.
 * **Notification**
   `_id`, `user`, `message`, `relatedTask`, `read`, `createdAt`
 
-![ER Diagram](./docs/schema.png)
-
 ---
 
 ## API Reference
@@ -261,8 +259,8 @@ Visit `http://localhost:3000` in your browser.
 └── README.md                 # Project documentation
 ```
 
-
-Made with ❤️ by Soumyaditya
-
 ```
 
+                                            Made with ❤️ by Soumyaditya
+
+```
