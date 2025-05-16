@@ -259,8 +259,8 @@ Visit `http://localhost:3000` in your browser.
 └── README.md                 # Project documentation
 ```
 
-```
 
-                                            Made with ❤️ by Soumyaditya
 
-```
+Made with ❤️ by Soumyaditya
+
+
