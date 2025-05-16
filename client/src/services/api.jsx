@@ -1,11 +1,15 @@
 import axios from "axios"
 
+const BASE = import.meta.env.VITE_API_URL
+  ? import.meta.env.VITE_API_URL
+  : "http://localhost:5000";
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL: BASE + "/api",
   headers: {
     "Content-Type": "application/json",
   },
-})
+});
 
 const token = localStorage.getItem("token")
 if (token) {
