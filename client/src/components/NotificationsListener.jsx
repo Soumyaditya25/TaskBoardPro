@@ -1,4 +1,3 @@
-// src/components/NotificationsListener.jsx
 import { useEffect, useState } from "react"
 import { toast } from "react-toastify"
 import { socket } from "../socket"
